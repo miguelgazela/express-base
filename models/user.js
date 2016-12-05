@@ -10,7 +10,20 @@ var schema = new mongoose.Schema({
   firstName: String,
   lastName: String,
   registeredAt: Date,
-  lastSeenAt: Date
+  lastSeenAt: Date,
+  birthDate: Date,
+  avatar: String,
+  description: String,
+  active: Boolean,
+  weight: Number,
+  height: Number,
+  gender: String,
+  facebook: {
+    id: String,
+    access_token: String,
+    profileURL: String,
+    coverURL: String
+  }
 });
 
 hash = function(password) {

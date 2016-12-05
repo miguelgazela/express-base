@@ -1,6 +1,17 @@
-doctype html
-html(lang="en")
-  head
-    title= title
-  body
-    h1= message
+extends layout
+
+block content
+  .container
+    h1.text-center Entrar
+    div
+      form(class="form-signin", action="/login", method="POST")
+        input(type="text", name="username", class="form-control", placeholder="Email/Username", required, autofocus)
+        input(type="password", name="password", class="form-control", placeholder="Password", required)
+        button(class="btn btn-lg btn-primary btn-block", type="submit") Sign In
+        span.clearfix
+        a(href="/signup", class="text-center") Criar Conta
+        a(href='/login/facebook', class='btn btn-block') Entrar com Facebook
+          i(class='fa fa-facebook')
+        #message
+          if message
+            h1.text.center #{message}

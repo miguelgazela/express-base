@@ -1,0 +1,15 @@
+{
+  "name": "boxy",
+  "description": "## Stack",
+  "main": "app.js",
+  "authors": [
+    "Miguel Oliveira <miguel.gazela@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/miguelgazela/boxy.git",
+  "ignore": [],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

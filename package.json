@@ -1,8 +1,8 @@
 {
   "name": "boxy",
-  "version": "0.9.1",
-  "description": "## Stack",
-  "main": "index.js",
+  "version": "0.9.2",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "mocha --recursive test/",
     "dev": "./node_modules/.bin/nodemon app.js"
@@ -19,12 +19,19 @@
   "homepage": "https://github.com/miguelgazela/boxy#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "crypto": "0.0.3",
     "ejs": "^2.5.3",
     "express": "^4.14.0",
+    "express-session": "^1.14.2",
     "mongoose": "^4.7.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
     "pug": "^2.0.0-beta6",
-    "react": "^15.4.1"
+    "react": "^15.4.1",
+    "serve-favicon": "^2.3.2"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
