@@ -1,13 +1,4 @@
-## Stack
-
-+ Node.js
-+ React - Allows us to compose simple yet powerful UIs.
-+ Express -
-+ Nodemon - Restarts the server automatically whenever you save a file that the server uses.
-+ MongoDB
-+ [body-parser](https://www.npmjs.com/package/body-parser) - Handle incoming request bodies
-+ [Mocha](http://mochajs.org/#usage) - Feature-rich JavaScript test framework running on Node.js, making asynchronous testing simple and fun.
-+ [should](https://www.npmjs.com/package/should) - should is an expressive, readable, framework-agnostic assertion library.
+Base project for your next Node and Express web app. Clone it and you are ready to go. It will provide you with a simple but solid structure on which to build on
 
 ## Running App Locally
 
